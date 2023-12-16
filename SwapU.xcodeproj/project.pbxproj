@@ -14,6 +14,9 @@
 		770DDA092B2D0E110071BAA4 /* SwapUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DDA082B2D0E110071BAA4 /* SwapUTests.swift */; };
 		770DDA132B2D0E110071BAA4 /* SwapUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DDA122B2D0E110071BAA4 /* SwapUUITests.swift */; };
 		770DDA152B2D0E110071BAA4 /* SwapUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DDA142B2D0E110071BAA4 /* SwapUUITestsLaunchTests.swift */; };
+		770DDA232B2D48D00071BAA4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DDA222B2D48D00071BAA4 /* WelcomeView.swift */; };
+		770DDA252B2D50DD0071BAA4 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DDA242B2D50DD0071BAA4 /* SignupView.swift */; };
+		770DDA272B2D50EB0071BAA4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DDA262B2D50EB0071BAA4 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		770DDA0E2B2D0E110071BAA4 /* SwapUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770DDA122B2D0E110071BAA4 /* SwapUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapUUITests.swift; sourceTree = "<group>"; };
 		770DDA142B2D0E110071BAA4 /* SwapUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		770DDA222B2D48D00071BAA4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		770DDA242B2D50DD0071BAA4 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		770DDA262B2D50EB0071BAA4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		770DD9F62B2D0E100071BAA4 /* SwapU */ = {
 			isa = PBXGroup;
 			children = (
+				770DDA212B2D48B70071BAA4 /* Sign in */,
 				770DD9F72B2D0E100071BAA4 /* SwapUApp.swift */,
 				770DD9F92B2D0E100071BAA4 /* ContentView.swift */,
 				770DD9FB2B2D0E110071BAA4 /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				770DDA142B2D0E110071BAA4 /* SwapUUITestsLaunchTests.swift */,
 			);
 			path = SwapUUITests;
+			sourceTree = "<group>";
+		};
+		770DDA212B2D48B70071BAA4 /* Sign in */ = {
+			isa = PBXGroup;
+			children = (
+				770DDA222B2D48D00071BAA4 /* WelcomeView.swift */,
+				770DDA242B2D50DD0071BAA4 /* SignupView.swift */,
+				770DDA262B2D50EB0071BAA4 /* LoginView.swift */,
+			);
+			path = "Sign in";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				770DD9FA2B2D0E100071BAA4 /* ContentView.swift in Sources */,
+				770DDA272B2D50EB0071BAA4 /* LoginView.swift in Sources */,
+				770DDA252B2D50DD0071BAA4 /* SignupView.swift in Sources */,
 				770DD9F82B2D0E100071BAA4 /* SwapUApp.swift in Sources */,
+				770DDA232B2D48D00071BAA4 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +452,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fraziernick894-gmail.com.SwapU";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,6 +484,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fraziernick894-gmail.com.SwapU";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
